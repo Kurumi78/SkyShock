@@ -1,9 +1,9 @@
-package com.example.examplemod;
+package com.gmail.kurumitk78.skyshock;
 
-import com.example.examplemod.commands.ExampleCommand;
-import com.example.examplemod.config.ConfigHandler;
-import com.example.examplemod.events.ExampleKeybindListener;
-import com.example.examplemod.hud.ExampleHUD;
+import com.gmail.kurumitk78.skyshock.commands.ExampleCommand;
+import com.gmail.kurumitk78.skyshock.config.ConfigHandler;
+import com.gmail.kurumitk78.skyshock.events.ExampleKeybindListener;
+import com.gmail.kurumitk78.skyshock.hud.ExampleHUD;
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Loader;
@@ -13,13 +13,13 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(
-        modid = ExampleMod.MODID,
-        name = ExampleMod.MODNAME,
-        version = ExampleMod.VERSION)
-public class ExampleMod { // select ExampleMod and hit shift+F6 to rename it
+        modid = SkyShock.MODID,
+        name = SkyShock.MODNAME,
+        version = SkyShock.VERSION)
+public class SkyShock { // select ExampleMod and hit shift+F6 to rename it
 
-    public static final String MODID = "examplemod";      // the id of your mod, it should never change, it is used by forge and servers to identify your mods
-    public static final String MODNAME = "examplemodname";// the name of your mod
+    public static final String MODID = "skyshock";      // the id of your mod, it should never change, it is used by forge and servers to identify your mods
+    public static final String MODNAME = "SkyShock";// the name of your mod
     public static final String VERSION = "1.0";           // the current version of your mod
 
     // this method is one entry point of you mod

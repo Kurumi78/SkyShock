@@ -1,4 +1,4 @@
-package com.example.examplemod.events;
+package com.gmail.kurumitk78.skyshock.events;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.settings.KeyBinding;

@@ -1,4 +1,4 @@
-package com.example.examplemod.hud;
+package com.gmail.kurumitk78.skyshock.hud;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;

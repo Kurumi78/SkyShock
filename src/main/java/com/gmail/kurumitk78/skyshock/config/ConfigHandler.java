@@ -1,4 +1,4 @@
-package com.example.examplemod.config;
+package com.gmail.kurumitk78.skyshock.config;
 
 import net.minecraftforge.common.config.Configuration;
 
